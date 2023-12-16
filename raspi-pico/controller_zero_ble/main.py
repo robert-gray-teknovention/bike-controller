@@ -8,7 +8,7 @@ import secrets
 from wifi import WifiConnector
 from lionchief import LionChief
 from bike import run_bike
-def main():
+if __name__ == "__main__":
     addr_string = 'FA:28:35:37:B6:54'
     addr = bytes.fromhex(addr_string.replace(':', ''))
     print(addr)
